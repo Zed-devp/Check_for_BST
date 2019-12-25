@@ -1,14 +1,6 @@
 # Check_for_BST
 
 Given a binary tree, return true if it is BST, else false. 
-For example, the following tree is not BST, because 11 is in left subtree of 10. 
-The task is to complete the function isBST() which takes one argument, root of Binary Tree.
-
-        10
-     /     \
-   7       39
-     \
-      11
 
 Input:
 The input contains T, denoting number of testcases. 
@@ -25,15 +17,23 @@ Output:
 The function should return 1 if BST else return 0.
 
 Example:
+
 Input:
+
 2
+
 2
+
 1 2 R 1 3 L
+
 4
+
 10 20 L 10 30 R 20 40 L 20 60 R
 
 Output:
+
 0
+
 0
 
 Explanation:
